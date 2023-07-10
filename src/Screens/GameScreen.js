@@ -49,8 +49,7 @@ const GameScreen = ({targetWord, setGameState, setWinLose, rowIndex, setRowIndex
               setGameState('end')
               setWinLose('Won')
             }, 1000);
-          }
-          if (rowIndex === 6) {
+          } else if (rowIndex === 6) {
             setTimeout(() => {
               setGameState('end')
               setWinLose('Loss')
