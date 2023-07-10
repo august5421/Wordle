@@ -13,11 +13,11 @@
     "react-spring": "^9.7.2",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://august5421.github.io/Wordle-Clone/",
+  "homepage": "https://august5421.github.io/Wordle/",
   "scripts": {
     "start": "react-scripts start",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
